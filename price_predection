@@ -1,0 +1,68 @@
+🏠 House Price Prediction using Machine Learning
+📌 Overview
+
+This project is a machine learning-based house price prediction system built using Python. It uses a Random Forest Regressor to predict house prices based on features like area, bedrooms, bathrooms, age, and location.
+
+🚀 Features
+Data preprocessing using Pandas
+Categorical encoding (One-Hot Encoding)
+Model training using Random Forest
+Model evaluation using R² Score
+Data visualization (Area vs Price)
+User input-based real-time prediction
+
+🛠️ Technologies Used
+Python
+Pandas
+Matplotlib
+Scikit-learn
+
+📂 Project Structure
+├── code.py              # Main Python script
+├── house_data.csv      # Dataset file
+├── README.md           # Project documentation
+
+📊 Dataset
+
+The dataset contains the following features:
+
+area – Size of the house
+bedrooms – Number of bedrooms
+bathrooms – Number of bathrooms
+age – Age of the property
+location – (urban / suburban / rural)
+price – Target variable
+
+📈 Model
+Algorithm: Random Forest Regressor
+Train-Test Split: 80% training, 20% testing
+Evaluation Metric: R² Score
+
+📉 Visualization
+The project generates a scatter plot:
+Area vs Price
+
+🎯 How It Works
+Loads dataset from CSV
+Converts categorical data into numerical format
+Splits data into training and testing sets
+Trains the model
+Evaluates accuracy
+Takes user input
+Predicts house price
+
+🧪 Example Input
+Enter area: 1200
+Enter bedrooms: 3
+Enter bathrooms: 2
+Enter age: 5
+Enter location: urban
+📌 Output
+Predicted House Price: XXXXX
+
+⚠️ Limitations
+Dataset is small → accuracy may be misleading
+No feature scaling or tuning. 
+
+📜 License
+This project is for educational purposes.
